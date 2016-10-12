@@ -1,0 +1,16 @@
+{
+  "name": "KerwinHttpServer",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "lucs",
+  "contributors": [],
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
