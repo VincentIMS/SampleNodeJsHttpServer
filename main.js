@@ -1,6 +1,12 @@
-var express = require('express');
+// inladen van de dependencies - externe dependencies inladen via het commando: 
+ // npm install express --save
+  // npm install body-parser --save
+
+var express = require('express'); // eenvoudige webserver in node js
+var busteVerwerker = require('body-parser'); // extensie op express voor eenvoudig body uit te lezen
+
+// aanmaken van de webserver variabele
 var app = express();
-var busteVerwerker = require('body-parser');
 
 app.use(busteVerwerker.json());
 
